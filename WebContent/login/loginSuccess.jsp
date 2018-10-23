@@ -18,6 +18,9 @@
 	<div>
 		<a href="../fileUpload/download.jsp">进入文件下载界面</a>
 	</div>
+	<div>
+		<a href="../fileUpload/download.jsp">测试查询结果</a>
+	</div>
 </body>
 </html>
 

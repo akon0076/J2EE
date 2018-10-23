@@ -48,7 +48,7 @@ public class SimpleDownLoad2Action extends ActionSupport{
 		System.out.println(filepath);
 		File file = new File(filepath);   
 		   
-		InputStream stream = new FileInputStream(file);
+		InputStream stream;
 		stream = new ByteArrayInputStream("ddd".getBytes());
 		   
 		return stream;

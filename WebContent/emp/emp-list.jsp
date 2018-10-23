@@ -35,6 +35,9 @@
         <div class="itemStyle">
             <input type="submit" class="buttonStyle"></input>
         </div>
+        <div class="itemStyle">
+            <input style="width: 115px;height: 30px; font-size: 18px; margin-left: 15px; margin-top: 5px; background: lightgray; cursor:pointer;" value="下载查询结果"></input>
+        </div>
     </form>
 
 </div>
@@ -73,6 +76,7 @@
         line-height: 0px;
     }
     .selectStyle {
+    	cursor: pointer;
         width: 60px;
         height: 30px;
         font-size: 18px;
@@ -85,9 +89,10 @@
         font-size: 18px;
         margin-left: 15px;
         margin-top: 5px;
+        cursor: pointer;
     }
     .operationDIV {
-        width: 30%;
+        width: 40%;
         margin: auto;
         margin-top: 15%;
         height: 30px;

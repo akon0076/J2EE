@@ -56,7 +56,6 @@
       		
       		<!--限制上传文件的类型 -->
       		<param name="fileUpload.allowedTypes">text/plain,application/msword,image/jpeg,image/png</param>
-      		
     	</interceptor-ref>
  	</action>
  
