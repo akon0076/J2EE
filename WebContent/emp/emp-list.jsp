@@ -36,7 +36,9 @@
             <input type="submit" class="buttonStyle"></input>
         </div>
         <div class="itemStyle">
-            <input style="width: 115px;height: 30px; font-size: 18px; margin-left: 15px; margin-top: 5px; background: lightgray; cursor:pointer;" value="下载查询结果"></input>
+            <button style="width: 115px;height: 30px; font-size: 18px; margin-left: 15px; margin-top: 5px; background: lightgray; cursor:pointer;" 
+            		type="button"
+            		onclick="downLoad()">下载结果</button>
         </div>
     </form>
 
@@ -112,5 +114,11 @@
         font-size: 20px;
     }
 </style>
+<script type="text/javascript">
+function downLoad() {
+	alert("success");
+	window.location.href="simpledownload2.action";
+}
+</script>
 </body>
 </html>
