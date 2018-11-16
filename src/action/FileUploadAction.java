@@ -70,9 +70,6 @@ public class FileUploadAction extends ActionSupport {
 			line = reader.readLine();
 		}
 		is.close();
-		// 1.加载hibernate.cfg.xml配置
-		// Configuration config = new
-		// Configuration().configure("/config/hibernate.cfg.xml");//查找指定位置的配制文件
 		Configuration config = new Configuration().configure();// 默认去类路径的根目录下查找名称为hibernate.cfg.xml的文件
 		for (int i = 0; i < list.size(); i++) {
 			// 2.获取SessionFactory

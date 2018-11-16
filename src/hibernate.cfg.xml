@@ -54,5 +54,7 @@
 	<!-- 用来关联hbm配置文件 -->
 	<mapping resource="xml/Customer.hbm.xml"/>
 	<mapping resource="xml/Employee.hbm.xml"/>
+	<mapping resource="xml/Student.hbm.xml"/>
+    <mapping resource="xml/Classes.hbm.xml"/>
  </session-factory>
 </hibernate-configuration>	

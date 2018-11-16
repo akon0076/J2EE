@@ -24,7 +24,7 @@ public class TestClass {
 		// 5.操作
 		// 5.1创建一个对象
 		Employee c = new Employee();
-		c.setName("sss");
+		c.setName("rrrrr");
 		c.setAge(20);
 		c.setNumber("11603080205");
 		c.setAge(21);
